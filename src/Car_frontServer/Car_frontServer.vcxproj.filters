@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{9e6e2b35-0f2f-4d0c-af4c-63ecf05dbcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8cebfc30-961b-4827-a898-19de585c9261}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TCPSocketServer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CAddress.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EPollServer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShmFifo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintLog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TCPSocketServer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocketBase.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddress.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EPollServer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShmFifo.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define_file.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintLog.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

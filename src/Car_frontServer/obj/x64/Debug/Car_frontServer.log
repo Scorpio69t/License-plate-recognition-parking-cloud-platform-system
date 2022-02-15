@@ -1,0 +1,142 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.142.136”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  CAddress.cpp
+  EPollServer.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning : extra tokens at end of #endif directive [-Wendif-labels]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning :  #endif PRINTLOG
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(19,15): warning : unused variable ‘temp’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(19,15): warning :   EPollServer* temp = (EPollServer*)arg;
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(19,15): warning :                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(56,46): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(56,46): warning :   int ret = read(this->fd, &head, sizeof(head));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(56,46): warning :                                               ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(65,69): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(65,69): warning :     int res = read(this->fd, &regist_login, sizeof(PACK_REGIST_LOGIN));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(65,69): warning :                                                                      ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(66,116): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(66,116): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(79,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(79,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(79,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(86,69): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(86,69): warning :     int res = read(this->fd, &regist_login, sizeof(PACK_REGIST_LOGIN));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(86,69): warning :                                                                      ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(87,111): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(87,111): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(100,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(100,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(100,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(106,59): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(106,59): warning :     int res = read(this->fd, &car_enter, sizeof(PACK_ENTER));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(106,59): warning :                                                            ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(107,126): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(107,126): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(123,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(123,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(123,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(130,57): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(130,57): warning :     int res = read(this->fd, &car_exit, sizeof(PACK_EXIT));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(130,57): warning :                                                          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(131,130): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(131,130): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(144,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(144,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(144,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(163,60): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(163,60): warning :     int res = read(this->fd, &photo_pack, sizeof(PACK_PHOTO));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(163,60): warning :                                                             ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(163,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(163,8): warning :     int res = read(this->fd, &photo_pack, sizeof(PACK_PHOTO));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(163,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(180,58): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(180,58): warning :     int res = read(this->fd, &car_msg, sizeof(PACK_CARMSG));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(180,58): warning :                                                           ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(181,130): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(181,130): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(194,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(194,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(194,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(200,55): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(200,55): warning :     int res = read(this->fd, &video, sizeof(PACK_VIDEO));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(200,55): warning :                                                        ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(201,124): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(201,124): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(213,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(213,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(213,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(221,55): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(221,55): warning :     int res = read(this->fd, &video, sizeof(PACK_VIDEO));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(221,55): warning :                                                        ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(235,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(235,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(235,9): warning :          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(242,61): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(242,61): warning :     int res = read(this->fd, &video_close, sizeof(PACK_VIDEO));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(242,61): warning :                                                              ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(254,9): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(254,9): warning :      int res = msgsnd(msgid, &msg, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\EPollServer.cpp(254,9): warning :          ^
+  main.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning : extra tokens at end of #endif directive [-Wendif-labels]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning :  #endif PRINTLOG
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(20,71): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(20,71): warning :    int ret = msgrcv(msgid_back, msg, sizeof(MYBUF) - sizeof(long), 2, 0);
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(20,71): warning :                                                                        ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(45,63): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(45,63): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(45,63): warning :                                                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(45,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(45,8): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(45,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(55,63): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(55,63): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(55,63): warning :                                                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(55,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(55,8): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(55,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(65,63): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(65,63): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(65,63): warning :                                                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(65,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(65,8): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(65,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(75,63): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(75,63): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(75,63): warning :                                                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(75,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(75,8): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(75,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(85,63): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(85,63): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(85,63): warning :                                                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(85,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(85,8): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(85,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(95,63): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(95,63): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(95,63): warning :                                                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(95,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(95,8): warning :     int res = write(fd_temp, total_buffer, sizeof(total_buffer));
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\main.cpp(95,8): warning :         ^
+  PrintLog.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning : extra tokens at end of #endif directive [-Wendif-labels]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning :  #endif PRINTLOG
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\PrintLog.h(32,8): warning :         ^
+  ShmFifo.cpp
+  TCPSocketServer.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\TCPSocketServer.cpp(24,43): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\TCPSocketServer.cpp(24,43): warning :   this->my_ip_port->setIp("192.168.142.136");
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\TCPSocketServer.cpp(24,43): warning :                                            ^
+  ThreadPool.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\ThreadPool.cpp(56,1): warning : no return statement in function returning non-void [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\ThreadPool.cpp(56,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\ThreadPool.cpp(56,1): warning :  ^
+  正在链接对象
+  Car_frontServer.vcxproj -> C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_frontServer\bin\x64\Debug\Car_frontServer.out

@@ -1,0 +1,121 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.142.136”
+  正在验证体系结构
+  正在验证体系结构
+D:\Software\VS2019\Community\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(200,5): warning : 当前项目体系结构“ARM”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+  正在启动远程生成
+  正在编译源:
+  CarModel.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(80,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(80,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(80,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(121,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(121,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(121,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(148,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(148,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(148,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(175,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(175,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(175,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(201,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(201,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(201,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(227,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(227,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(227,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(253,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(253,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(253,1): warning :  ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(292,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(292,1): warning :  }
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\CarModel.cpp(292,1): warning :  ^
+  main.cpp
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(44,66): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(44,66): warning :    int ret = msgrcv(msgid, msg, sizeof(MYBUF) - sizeof(long), 1, 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(44,66): warning :                                                                   ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(86,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(86,8): warning :     int res = msgsnd(msgid_back, &msg_back, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(86,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(120,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(120,8): warning :     int res = msgsnd(msgid_back, &msg_back, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(120,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(152,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(152,8): warning :     int res = msgsnd(msgid_back, &msg_back, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(152,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(223,9): warning : unused variable ‘updatemsg’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(231,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(231,8): warning :     int res = msgsnd(msgid_back, &msg_back, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(231,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,31): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,31): warning :     if (car_msg->car_number != "" && car_msg->in_time!= "" &&car_msg->out_time!="")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,31): warning :                                ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,56): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,56): warning :     if (car_msg->car_number != "" && car_msg->in_time!= "" &&car_msg->out_time!="")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,56): warning :                                                         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,80): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,80): warning :     if (car_msg->car_number != "" && car_msg->in_time!= "" &&car_msg->out_time!="")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(244,80): warning :                                                                                 ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,35): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,35): warning :     else if(car_msg->car_number == "" && car_msg->in_time != "" && car_msg->out_time != "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,35): warning :                                    ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,61): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,61): warning :     else if(car_msg->car_number == "" && car_msg->in_time != "" && car_msg->out_time != "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,61): warning :                                                              ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,88): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,88): warning :     else if(car_msg->car_number == "" && car_msg->in_time != "" && car_msg->out_time != "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(249,88): warning :                                                                                         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,36): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,36): warning :     else if (car_msg->car_number != "" && car_msg->in_time == "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,36): warning :                                     ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,62): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,62): warning :     else if (car_msg->car_number != "" && car_msg->in_time == "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,62): warning :                                                               ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,89): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,89): warning :     else if (car_msg->car_number != "" && car_msg->in_time == "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(253,89): warning :                                                                                          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,36): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,36): warning :     else if (car_msg->car_number == "" && car_msg->in_time != "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,36): warning :                                     ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,62): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,62): warning :     else if (car_msg->car_number == "" && car_msg->in_time != "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,62): warning :                                                               ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,89): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,89): warning :     else if (car_msg->car_number == "" && car_msg->in_time != "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(257,89): warning :                                                                                          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,36): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,36): warning :     else if (car_msg->car_number == "" && car_msg->in_time == "" && car_msg->out_time != "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,36): warning :                                     ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,62): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,62): warning :     else if (car_msg->car_number == "" && car_msg->in_time == "" && car_msg->out_time != "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,62): warning :                                                               ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,89): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,89): warning :     else if (car_msg->car_number == "" && car_msg->in_time == "" && car_msg->out_time != "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(261,89): warning :                                                                                          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,36): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,36): warning :     else if (car_msg->car_number == "" && car_msg->in_time == "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,36): warning :                                     ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,62): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,62): warning :     else if (car_msg->car_number == "" && car_msg->in_time == "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,62): warning :                                                               ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,89): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,89): warning :     else if (car_msg->car_number == "" && car_msg->in_time == "" && car_msg->out_time == "")
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(265,89): warning :                                                                                          ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(284,29): warning : conversion to ‘int’ from ‘std::__cxx11::list<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(284,29): warning :     carmsg_allback.realCount = car_msglist.size() / 4;
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(284,29): warning :                              ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(296,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(296,8): warning :     int res = msgsnd(msgid_back, &msg_back, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(296,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(335,8): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(335,8): warning :     int res = msgsnd(msgid_back, &msg_back, sizeof(MYBUF) - sizeof(long), 0);//��Ҫ��ȥ��Ϣ����sizeof(long)�����δ���Խ��
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(335,8): warning :         ^
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(39,8): warning : unused variable ‘addr’ [-Wunused-variable]
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(39,8): warning :   char* addr = (char*)arg;
+C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\main.cpp(39,8): warning :         ^
+  ShmFifo.cpp
+  SingalDb.cpp
+  UserModel.cpp
+  正在链接对象
+  Car_backServer.vcxproj -> C:\Users\南国海风\Desktop\吕梁林\OMO210101-黄伟志\src\Car_backServer\bin\ARM\Debug\Car_backServer.out
