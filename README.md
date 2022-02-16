@@ -5,6 +5,14 @@
 
 服务器主要分前置服务器和后置服务器，分两个进程，主要为了后面服务器拓展，提高服务器的性能。前置服务器主要作用负责与客户端进行交互，以及将客户端请求发到后置服务器的交互，后置服务器主要作用是负责根据请求查询数据库，将结果发回到前置服务器。
 
+# 效果展示图：
+![image](https://user-images.githubusercontent.com/94782056/154189554-1f4c9f8c-c168-41e6-bac7-5fc0fd5eb1e6.png)
+![image](https://user-images.githubusercontent.com/94782056/154189589-8eb6934b-8a7b-4767-8b5f-30d2ed47addc.png)
+![image](https://user-images.githubusercontent.com/94782056/154189637-02a4afc1-07d8-4f81-b4c7-7bebde298065.png)
+![image](https://user-images.githubusercontent.com/94782056/154189700-264c5891-709c-48a3-86f7-254efc875434.png)
+![image](https://user-images.githubusercontent.com/94782056/154189769-caa000f3-4fc6-4216-b015-48cb205af4d8.png)
+
+
 # 客户端环境配置问题：
 
 1、OpenCV3.4.2：使用cmake里面cmake-gui工具来bulid，configure之后要勾选BUILD_opencv_world（为了生成动态库）
